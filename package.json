@@ -1,16 +1,27 @@
 {
   "name": "expresshandlebars",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "config.json": "^0.0.1",
+    "consolelog": "^2.1.3",
     "express": "^4.17.1",
     "express-handlebars": "^5.2.0",
     "mysql": "^2.18.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vicki20Rous/ExpressHandlebars.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vicki20Rous/ExpressHandlebars/issues"
+  },
+  "homepage": "https://github.com/Vicki20Rous/ExpressHandlebars#readme",
+  "description": ""
 }
